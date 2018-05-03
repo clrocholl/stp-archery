@@ -1,0 +1,154 @@
+/*
+Color Palette
+Brown:#523E33
+light-brown: #94877E
+green: #94C842
+light-green: #D2E3B3
+gray: #808080
+green: #06BC9B
+*/
+
+/* BODY STYLE */
+
+body {
+  padding: 1em;
+  background-color: #fff;
+  color: #808080;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #94C842;
+  text-align: center;
+  justify-content: space-around;
+  padding: 1%;
+  margin: 0;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #94C842;
+  justify-content: space-around;
+  padding: 1%;
+  margin: 0;
+  line-height: 2;
+}
+
+.address {
+  text-align: center;
+  justify-content: space-around;
+}
+
+/* BANNER */
+
+.banner-img {
+  background-image: url(../images/students-competing-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #94C842;
+  position: relative;
+  width: 100%;
+  height: 450px;
+  border: solid 20px #94C842;
+  margin-bottom: 2em;
+}
+
+.banner-text {
+  position: absolute;
+  color: ghostwhite;
+  background-color: rgba(13, 13, 13, .65);
+  top: 300px;
+  right: 100px;
+  width: 35%;
+  height: 100px;
+}
+
+/* LOGO */
+
+.logo-container {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  border: solid 2px #06BC9B;
+}
+
+.logo-img {
+  width: 100%;
+  height: auto;
+}
+
+/* NAVIGATION */
+
+nav {
+  width: 80%;
+  height: 100px;
+  overflow: auto;
+}
+
+ul {
+  float: right;
+}
+
+ul li {
+  float: left;
+  list-style: none;
+}
+
+nav a {
+  padding-left: 4em;
+  padding-right: 4em;
+  float: left;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.nav-box {
+  border: solid 2px #06BC9B;
+  margin-left: 1em;
+  line-height: 4;
+  background-color: white;
+}
+
+/* GRID STYLE */
+
+.article {
+  padding: 0 4em 4em 4em;
+}
+
+/* LOCATION MAP */
+
+.mapWrapper {
+  padding-bottom: 10%;
+  padding-top: 2em;
+}
+
+.mapWrapper iframe {
+  top: 0;
+  left: 10%;
+  width: 100%;
+  height: 450px;
+}
+
+/* PAGE BORDERS */
+
+.line {
+  padding: .4em;
+  margin-left: 1em;
+  background-color: #94C842;
+  top: 35px;
+  margin: 1
+}
+
+.border {
+  border: solid 2px #06BC9B;
+  background-color: white;
+  width: 10%;
+  line-height: 4;
+}
