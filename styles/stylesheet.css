@@ -10,6 +10,9 @@ green: #06BC9B
 
 /* BODY STYLE */
 
+html {
+  width: 100%;
+}
 body {
   margin: 1%;
   background-color: #fff;
@@ -33,6 +36,20 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   color: #94C842;
+  justify-content: space-around;
+  padding: 1%;
+  margin: 0;
+  line-height: 2;
+}
+
+.instructors {
+  text-align: center;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #94877E;
   justify-content: space-around;
   padding: 1%;
   margin: 0;
@@ -119,7 +136,7 @@ nav a {
   font-size: 1.4em;
 }
 
-nav a:active {
+a.active {
   color: #94877E;
   text-decoration: underline;
 }
@@ -133,6 +150,11 @@ nav a:focus {
 
 .article {
   padding: 0 4em 0 4em;
+}
+
+.article-about {
+  padding: 0 1em 0 1em;
+  text-align: justify;
 }
 
 /* LOCATION MAP */
@@ -153,22 +175,70 @@ nav a:focus {
   inset 0 0 0 .15em #06BC9B, -.1em .1em 0 .1em rgba(0, 0, 0, .2);
 }
 
-/* LINES */
-
-.horizontal-line {
-  position: absolute;
-  width: 85%;
-  margin-right: 10px;
-  height: 10px;
-  right: 20px;
-  top: 520px;
-  background-color: #94C842;
-  z-index: -1;
-}
+/* Lines */
 
 .vertical-line {
   border-left: solid 10px #94C842;
   margin-left: 25px;
+}
+
+.line-a {
+  line-height: 2;
+}
+
+.line-a span {
+  display: inline-block;
+  position: relative;
+}
+
+.line-a span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 5px solid #94C842;
+  border-top: 5px solid #94C842;
+  top: 165px;
+  right: 0;
+  width: 1500px;
+}
+
+.line-a span:after {
+  left: 100%;
+  margin-left: 0;
+}
+
+.subtitle {
+  margin: 0 0 2em 0;
+}
+
+.line {
+  line-height: 0.5;
+}
+
+.line span {
+  display: inline-block;
+  position: relative;
+}
+
+.line span:before,
+.line span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 5px solid #94C842;
+  border-top: 5px solid #94C842;
+  top: 0;
+  width: 100%;
+}
+
+.line span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.line span:after {
+  left: 100%;
+  margin-left: 15px;
 }
 
 
@@ -221,4 +291,14 @@ button:hover {
 
 .text-box:focus {
   width: 300px;
+}
+
+/* Images About Page */
+
+.instructor-img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
