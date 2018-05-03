@@ -13,6 +13,7 @@ green: #06BC9B
 html {
   width: 100%;
 }
+
 body {
   margin: 1%;
   background-color: #fff;
@@ -56,6 +57,15 @@ h3 {
   line-height: 2;
 }
 
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #94C842;
+  justify-content: space-around;
+  padding: 1%;
+  margin: 0;
+  line-height: 1.5;
+}
+
 .address {
   text-align: center;
   justify-content: space-around;
@@ -64,7 +74,7 @@ h3 {
 /* BANNER */
 
 .banner-img {
-  background-image: url(../images/students-competing-1.jpg);
+  background-image: url(../images/archery.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -302,3 +312,11 @@ button:hover {
   margin-right: auto;
   width: 50%;
 }
+
+.class-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
